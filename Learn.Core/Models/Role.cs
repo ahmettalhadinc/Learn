@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Learn.Core.Models
 {
-    public class Role
+    public class Role:BaseEntity
     {
         public string Name { get; set; }
 

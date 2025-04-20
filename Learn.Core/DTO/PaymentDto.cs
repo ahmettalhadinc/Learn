@@ -12,6 +12,6 @@ namespace Learn.Core.DTO
         public int CustomerId { get; set; }
         public double Amount { get; set; }
 
-        public CustomerDto Customer { get; set; }
+        public CustomerDto? Customer { get; set; }
     }
 }
