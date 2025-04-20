@@ -11,7 +11,7 @@ namespace Learn.Core.DTO
     {
         public string Name { get; set; }
 
-        public ICollection<Payment> Payments { get; set; }
-        public ICollection<Sale> Sales { get; set; }
+        public ICollection<Payment>? Payments { get; set; }
+        public ICollection<Sale>? Sales { get; set; }
     }
 }
